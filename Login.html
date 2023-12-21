@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/registerstyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="registerPage">
+        <form action="mail/register.php" method="post">
+            <div class="judul">
+                <h1>Registrasi</h1>
+            </div>
+
+            <div class="logo-container">
+                <h2 class="travel">Travel</h2>
+                <h2 class="kuy">Kuy</h2>
+            </div> 
+
+            <div class="input-box">
+                <div class="input-field">
+                <input type="text" name="username" id="username" placeholder="Username" required>
+                </div>
+
+                <div class="input-field">
+                    <input type="text" name="noTelp" id="noTelp" placeholder="Nomor Telepon" required>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                <input type="date" name="date" id="date" required>
+                </div>
+
+                <div class="input-field">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+
+                <div class="input-field">
+                    <input type="password" name="password" id="Kpassword" placeholder="Konfirmasi Password" required>
+                </div>
+            </div>
+
+            <ul>
+            <p>Sudah Punya Akun?<span class="signup-link"><a href="Login.html">Login</a></span></p>
+            </ul>
+
+            <div class="button-container">
+                <button class="button">Daftar</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+

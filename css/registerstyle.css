@@ -1,0 +1,113 @@
+body {
+    background-image: url('img/carousel-3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+
+.registerPage {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the last parameter (0.8) for transparency */
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.judul {
+    text-align: center;
+    color: #4CAF50; /* Green color */
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.travel, .kuy {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.travel {
+    color: #000; /* Black color for Travel */
+}
+
+.kuy {
+    color: #4CAF50; /* Green color for Kuy */
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-field ion-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #4CAF50; /* Green color */
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ul a {
+    text-decoration: none;
+    color: #4CAF50; /* Green color */
+    font-weight: bold;
+}
+
+/* ... existing styles ... */
+
+.button-container {
+    text-align: center;
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.button {
+    background-color: #4CAF50; /* Green color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
